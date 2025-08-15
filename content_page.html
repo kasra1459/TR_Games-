@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>صفحه محتوای من</title>
+<style>
+body {
+font-family: 'Arial', sans-serif;
+margin: 0;
+padding: 0;
+background-color: #f4f4f4;
+color: #333;
+line-height: 1.6;
+direction: rtl; /* برای پشتیبانی از زبان فارسی */
+text-align: right; /* برای راست‌چین کردن متن */
+}
+.header {
+background-color: #333;
+color: #fff;
+padding: 1em 0;
+text-align: center;
+}
+.header h1 {
+margin: 0;
+font-size: 2.5em;
+}
+.container {
+width: 80%;
+margin: auto;
+overflow: hidden;
+padding: 20px 0;
+background: #fff;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+margin-top: 20px;
+padding-bottom: 50px; /* برای فضای بیشتر در پایین */
+max-width: 600px; /* محدود کردن عرض برای نمایش بهتر در iframe */
+box-sizing: border-box; /* برای در نظر گرفتن padding در عرض */
+}
+.section-title {
+text-align: center;
+color: #007bff;
+margin-top: 30px;
+margin-bottom: 20px;
+font-size: 2em;
+}
+.content-block {
+padding: 20px;
+margin-bottom: 30px;
+border-bottom: 1px solid #eee; /* جداکننده بین بخش‌ها */
+}
+.content-block:last-child {
+border-bottom: none; /* حذف جداکننده برای آخرین بخش */
+}
+.content-block h2 {
+color: #555;
+margin-bottom: 15px;
+font-size: 1.8em;
+}
+.content-block p {
+font-size: 1.1em;
+margin-bottom: 15px;
+}
+.image-container {
+text-align: center;
+margin: 20px 0;
+}
+.image-container img {
+max-width: 90%; /* عکس‌ها از عرض کانتینر بیشتر نشوند */
+height: auto;
+border-radius: 8px;
+box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+.image-caption {
+font-size: 0.9em;
+color: #777;
+margin-top: 10px;
+}
+.footer {
+text-align: center;
+padding: 20px;
+background-color: #333;
+color: #fff;
+margin-top: 30px;
+}
+.back-link {
+display: inline-block;
+background-color: #007bff;
+color: blue;
+padding: 10px 20px;
+border-radius: 5px;
+text-decoration: none;
+margin-top: 20px;
+transition: background-color 0.3s ease;
+}
+.back-link:hover {
+background-color: #0056b3;
+}
+</style>
+</head>
+<body>
+<div class="header">
+<h1>وبلاگ شخصی من</h1>
+</div>
+
+<div class="container">
+<h2 class="section-title">عنوان اصلی صفحه محتوا</h2>
+<p>این یک توضیح کلی برای ابتدای صفحه شماست. می‌توانید در اینجا به معرفی کلی موضوعات یا هدف این صفحه بپردازید. این صفحه طراحی شده است تا بتوانید به راحتی بخش‌های مختلفی شامل متن و تصویر اضافه کنید.</p>
+
+<!-- image.jpg -->
+<div class="content-block">
+<h2>درباره سفر به کویر</h2>
+<p>سفر به کویر تجربه‌ای منحصر به فرد است. آرامش و سکوت صحرا، تماشای ستاره‌ها در شب و شن‌های طلایی زیر نور آفتاب، هر بیننده‌ای را مسحور می‌کند. در این بخش می‌خواهیم درباره زیبایی‌های کویر و نکاتی برای سفر به آن صحبت کنیم.</p>
+<div class="image-container">
+<img src="image.jpg">
+<p class="image-caption">تصویر: غروب آفتاب در کویر مرکزی ایران.</p>
+</div>
+<p>مهم است که قبل از سفر به کویر، برنامه‌ریزی دقیقی داشته باشید و تجهیزات لازم را با خود ببرید، از جمله آب کافی، کلاه، عینک آفتابی و لباس مناسب.</p>
+</div>
+
+<!-- بخش محتوای دوم -->
+<div class="content-block">
+<h2>هنر و خلاقیت</h2>
+<p>هنر یکی از راه‌های بیان احساسات و افکار انسان است. از نقاشی و مجسمه‌سازی گرفته تا موسیقی و نویسندگی، هر شکلی از هنر می‌تواند الهام‌بخش باشد و به ما کمک کند دنیا را از زاویه‌ای متفاوت ببینیم.</p>
+<div class="image-container">
+<img src="https://via.placeholder.com/400x250?text=تصویر+هنر" alt="تصویری از یک اثر هنری">
+<p class="image-caption">تصویر: یک اثر هنری مدرن و انتزاعی.</p>
+</div>
+<p>خلاقیت نیز عنصری کلیدی در زندگی روزمره است. با خلاقیت می‌توانیم راه‌حل‌های جدیدی برای مشکلات پیدا کنیم و ایده‌های نو خلق کنیم.</p>
+</div>
+
+<!-- می توانید بخش های content-block بیشتری اضافه کنید -->
+
+<p style="text-align: center;">
+<a href="my_webpage.html" class="back-link">بازگشت به صفحه اصلی</a>
+</p>
+</div>
+
+<div class="footer">
+<p>&copy; 2023 وبسایت شخصی من. تمامی حقوق محفوظ است.</p>
+</div>
+</body>
+</html>

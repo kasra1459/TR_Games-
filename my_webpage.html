@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>صفحه وب من</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+background-color: #f0f0f0;
+color: #333;
+flex-direction: column;
+padding: 20px;
+box-sizing: border-box;
+}
+.container {
+background-color: #ffffff;
+padding: 30px;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+text-align: center;
+max-width: 500px;
+width: 100%;
+}
+h1 {
+color: #007bff;
+margin-bottom: 20px;
+}
+p {
+font-size: 1.1em;
+line-height: 1.6;
+}
+.button-link { /* کلاس جدید برای استایل دادن به لینک شبیه دکمه */
+background-color: #28a745;
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 1em;
+margin-top: 20px;
+text-decoration: none; /* حذف خط زیر لینک */
+transition: background-color 0.3s ease;
+display: inline-block; /* مهم برای اعمال padding و margin به درستی */
+}
+.button-link:hover {
+background-color: #218838;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>به صفحه وب من خوش آمدید!</h1>
+<p>این یک صفحه وب ساده است که به درخواست شما ایجاد شده است. با کلیک روی دکمه زیر به صفحه دیگری منتقل می‌شوید.</p>
+<!-- دکمه‌ای که شما را به صفحه جدید می برد -->
+<a href="content_page.html" class="button-link">برای دیدن پیام کلیک کنید</a>
+</div>
+</body>
+</html>
